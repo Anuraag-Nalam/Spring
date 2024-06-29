@@ -1,1 +1,22 @@
 Dependency Injection
+Bean
+Spring Context
+
+Launch Spring Context and make it to manage the property name
+Things which are managed by Spring are called as spring beans (managed inside the context). we can define the methods for the spring to manage these beans.Bean can be imagined as an annotation to methods which will return new objects when they are called using the spring context. 
+
+Contept understood - How the beans are being managed by the spring framework
+
+What is spring container
+Manages spring beans and their life cycle
+Container, Context, Spring IOC Container - same thing
+It takes classes as the inputs and creates a running system
+
+POJO vs Java Bean vs Spring Bean
+When a class implements Serializable, and when a class have getters and setters and also, then it is EJB (Enterprise Java Bean)
+
+@Primary Annotation - to avoid clashes when we use type on the class while accessing the beans
+@Qualifier-Annotation used to autowire other beans as parameters when there is a name clash. We can configure specially for the beans 
+
+methods with same qualifier names is not causing any issue
+
