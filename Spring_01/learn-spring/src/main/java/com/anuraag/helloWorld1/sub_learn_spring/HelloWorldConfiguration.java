@@ -49,7 +49,7 @@ public class HelloWorldConfiguration {
     public Address address() {
         return new Address("abc", "gef");
     }
-    @Bean
+    @Bean(name = "address3")
     @Qualifier("ChecKAddress3")
     public Address address3() {
         return new Address("add3", "adddd3");
