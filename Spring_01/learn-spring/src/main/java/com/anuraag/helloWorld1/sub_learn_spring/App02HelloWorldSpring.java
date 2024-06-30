@@ -13,13 +13,13 @@ public class App02HelloWorldSpring {
 //        System.out.println(context.getBean("configureAge"));
 //        System.out.println(context.getBean("person"));
 //        System.out.println(context.getBean("address"));
-//        System.out.println(context.getBean("person3"));
+        System.out.println(context.getBean("person3"));
 //        System.out.println(context.getBean(Person.class));
 //        Arrays.stream(context.
 //                getBeanDefinitionNames()).forEach(System.out::println);
-        System.out.println(context.getBean("person4Parameters"));
-        System.out.println(context.getBean("address3"));
-        System.out.println("checkin");
+//        System.out.println(context.getBean("person4Parameters"));
+//        System.out.println(context.getBean("address3"));
+//        System.out.println("checkin");
     }
 
 //    record Address(String address1, String address2) {
