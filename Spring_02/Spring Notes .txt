@@ -2,7 +2,6 @@ Dependency Injection
 Bean
 Spring Context
 
-FIRST SECTION
 Launch Spring Context and make it to manage the property name
 Things which are managed by Spring are called as spring beans (managed inside the context). we can define the methods for the spring to manage these beans.Bean can be imagined as an annotation to methods which will return new objects when they are called using the spring context. 
 
@@ -21,6 +20,3 @@ When a class implements Serializable, and when a class have getters and setters 
 
 methods with same qualifier names is not causing any issue
 
-
-SECOND SECTION
-AUTO WIRING is done with the help of using @Qualifier Annotation where if multiple candidates have the same preference while Bean creation.
